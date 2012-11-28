@@ -1,0 +1,130 @@
+/* tooltip.css by Edgar M. Salazar */
+
+/*  default tooltip */
+.tooltip {
+	position: absolute;
+	display: none;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-name: fade;
+	-moz-animation-name: fade;
+	-o-animation-name: fade;
+	-ms-animation-name: fade;
+	animation-name: fade;
+}
+
+/* tooltip positions */
+
+.tooltip-right {
+}
+
+.tooltip-left {
+}
+
+.tooltip-top {
+}
+
+.tooltip-bottom {
+}
+
+/* tooltip hooks and containers */
+
+.tooltip-parent:hover > .tooltip {
+	display: block;
+}
+
+.tooltip-adjacent:hover + .tooltip {
+	display: block;
+}
+
+.tooltip-adjacent + .tooltip:hover {
+	display: block;
+}
+
+/* tooltip animations */
+
+.tooltip-slide-right {
+	-webkit-animation-name: slide-right;
+	-moz-animation-name: slide-right;
+	-o-animation-name: slide-right;
+	-ms-animation-name: slide-right;
+	animation-name: slide-right;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slide-right {
+	from {
+		width: 0;
+	}
+}
+
+@-moz-keyframes slide-right {
+	from {
+		width: 0;
+	}
+}
+
+@-o-keyframes slide-right {
+	from {
+		width: 0;
+	}
+}
+
+@-ms-keyframes slide-right {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes slide-right {
+	from {
+		width: 0;
+	}
+}
