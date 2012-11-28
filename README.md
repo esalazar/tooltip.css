@@ -4,13 +4,13 @@ The tooltip.css project is a pure css implementation of a tooltip element. This 
 
 ##Implementation
 
-Out implementation is as followed, there is a tooltip element which will be displayed after a hover action is triggered from the container element. There are currently two ways to create this container/tooltip relationship.
+Out implementation is as followed, there is a tooltip element which will be displayed after a hover action is triggered from the container element.
 
 ###Usage
 
-You need to include the tooltip.css stylesheet and modify your html to have a working tooltip.
+You need to include the `tooltip.css` stylesheet and modify your html to have a working tooltip. There are currently two ways to create the tooltip.
 
-#### Tooltip-Parent:
+#####Tooltip-Parent:
 
 The container and tooltip elements have a parent/child relationship.
 
@@ -23,7 +23,7 @@ The container and tooltip elements have a parent/child relationship.
 </div>
 ```
 
-#### Tooltip-Adjacent:
+#####Tooltip-Adjacent:
 
 The container and tooltip elements are seperate and adjacent to each other (in case you can't embed the tooltip within the container e.g. an image).
 
@@ -36,7 +36,7 @@ The container and tooltip elements are seperate and adjacent to each other (in c
 <div>
 ```
 
-### Animations
+###Animations
 
 The default animation is set to fade. Currently, the other built-in animation that can be used is a sliding right animation by adding the "tooltip-slide-right" class to the tooltip element.
 
@@ -61,7 +61,7 @@ You can create your own animations and override the default time settings by add
 
 ##Examples
 
-There are several examples (more to come soon) involving tooltip.css in the /examples directory.
+There are several examples (more to come soon) involving tooltip.css in the `/examples` directory.
 
 ##Browser Support
 
